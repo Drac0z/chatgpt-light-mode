@@ -1,0 +1,47 @@
+/* Main background color */
+:root {
+  --background-primary: #2f3136;
+  --background-secondary: #36393f;
+  --background-tertiary: #40444b;
+  --background-accent: #f04747;
+}
+
+/* Text color */
+:root {
+  --text-normal: #dcddde;
+  --text-muted: #72767d;
+  --text-link: #00b0f4;
+}
+
+/* Channel list */
+.channel-2QD9_O {
+  background-color: var(--background-secondary);
+}
+
+/* Server list */
+.guilds-1SWlCJ {
+  background-color: var(--background-primary);
+}
+
+/* Server name */
+.guildName-1EfMGQ {
+  color: var(--text-normal);
+}
+
+/* Server icon */
+.guildIcon-1-2B4x {
+  background-color: var(--background-tertiary);
+}
+
+/* Channel name */
+.channelName-1G03vu {
+  color: var(--text-normal);
+}
+
+/* Channel topic */
+.topic-TCb_qw {
+  color: var(--text-muted);
+}
+
+/* Message background */
+.message-2qnXI
