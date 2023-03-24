@@ -1,0 +1,22 @@
+/* Set the background color to black */
+:root {
+  --background-primary: #000000;
+  --background-secondary: #111111;
+  --background-tertiary: #1a1a1a;
+  --background-accent: #2f3136;
+  --background-floating: #202225;
+  --text-normal: #b9bbbe;
+  --text-muted: #72767d;
+  --text-link: #00b0f4;
+  --interactive-normal: #7289da;
+  --interactive-hover: #677bc4;
+  --interactive-active: #5b6eae;
+  --interactive-muted: #4f545c;
+  --brand-experiment: #ff69b4;
+}
+
+/* Set the font to Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+/* Set the font color to white */
+body, .markup, .headerText-3Uvj1Y, .headerText-2o-2hj, .headerText-1f-6rE, .headerText-3QfR
