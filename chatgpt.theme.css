@@ -1,0 +1,48 @@
+/* Light theme for Discord */
+
+/* Background colors */
+:root {
+  --background-primary: #f2f3f5;
+  --background-secondary: #ffffff;
+  --background-tertiary: #e5e7eb;
+}
+
+/* Text colors */
+:root {
+  --text-normal: #2e3338;
+  --text-muted: #747f8d;
+  --text-link: #0077cc;
+}
+
+/* Accent colors */
+:root {
+  --brand-color: #7289da;
+  --brand-color-hover: #677bc4;
+  --brand-color-active: #5b6eae;
+}
+
+/* Borders */
+:root {
+  --border-radius: 8px;
+  --border-color: #d4d7dc;
+}
+
+/* Header */
+.header-2J-Nac {
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Server list */
+.guilds-1SWlCJ {
+  background-color: var(--background-primary);
+}
+
+/* Channels */
+.container-2ax-kl {
+  background-color: var(--background-secondary);
+}
+
+/* Chat */
+.chat-3bRxxu {
+  background-color: var(--background-ter
