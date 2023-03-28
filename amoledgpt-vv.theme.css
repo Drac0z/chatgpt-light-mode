@@ -1,0 +1,79 @@
+/* Discord AMOLED theme with obsidian background */
+
+/* Set obsidian background color */
+:root {
+  --background-primary: #0f0f0f;
+}
+
+/* Set accent color */
+:root {
+  --brand-experiment: #7289da;
+}
+
+/* Set text colors */
+:root {
+  --text-normal: #b9bbbe;
+  --text-muted: #747f8d;
+  --text-link: #00b0f4;
+  --text-active: #fff;
+}
+
+/* Set channel and member list colors */
+:root {
+  --background-secondary: #1e1e1e;
+  --background-secondary-alt: #161616;
+}
+
+/* Set chat colors */
+:root {
+  --background-message-hover: rgba(255, 255, 255, 0.05);
+  --background-accent: #202225;
+  --background-floating: #202225;
+}
+
+/* Set scrollbar colors */
+:root {
+  --scrollbar-color-thumb: #747f8d;
+  --scrollbar-color-track: #2f3136;
+}
+
+/* Set selection color */
+:root {
+  --background-modifier-accent: rgba(114, 137, 218, 0.15);
+}
+
+/* Set code block colors */
+.hljs {
+  background: #1e1e1e !important;
+}
+
+/* Set links colors */
+a {
+  color: var(--text-link);
+}
+
+/* Set blockquote colors */
+blockquote {
+  color: var(--text-muted);
+  border-left-color: var(--text-normal);
+}
+
+/* Set mention colors */
+span[data-is-user="true"] {
+  color: var(--brand-experiment);
+}
+
+/* Set role colors */
+div[class^="roleCircle-"] {
+  background-color: var(--brand-experiment) !important;
+}
+
+/* Set hover effect on server and channel list items */
+.listItem-2P_4kh:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Set hover effect on message reactions */
+.reactionInner-15NvIl:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
