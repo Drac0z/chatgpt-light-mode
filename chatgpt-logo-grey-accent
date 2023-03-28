@@ -1,0 +1,101 @@
+/* Discord Grey Theme with ChatGPT Logo */
+
+/* Set background color */
+:root {
+  --background-primary: #36393f;
+}
+
+/* Set accent color */
+:root {
+  --brand-experiment: #7289da;
+}
+
+/* Set text colors */
+:root {
+  --text-normal: #dcddde;
+  --text-muted: #747f8d;
+  --text-link: #00b0f4;
+  --text-active: #fff;
+}
+
+/* Set channel and member list colors */
+:root {
+  --background-secondary: #2f3136;
+  --background-secondary-alt: #292b2f;
+}
+
+/* Set chat colors */
+:root {
+  --background-message-hover: rgba(255, 255, 255, 0.05);
+  --background-accent: #40444b;
+  --background-floating: #40444b;
+}
+
+/* Set scrollbar colors */
+:root {
+  --scrollbar-color-thumb: #747f8d;
+  --scrollbar-color-track: #2f3136;
+}
+
+/* Set selection color */
+:root {
+  --background-modifier-accent: rgba(114, 137, 218, 0.15);
+}
+
+/* Set code block colors */
+.hljs {
+  background: #2f3136 !important;
+}
+
+/* Set links colors */
+a {
+  color: var(--text-link);
+}
+
+/* Set blockquote colors */
+blockquote {
+  color: var(--text-muted);
+  border-left-color: var(--text-normal);
+}
+
+/* Set mention colors */
+span[data-is-user="true"] {
+  color: var(--brand-experiment);
+}
+
+/* Set role colors */
+div[class^="roleCircle-"] {
+  background-color: var(--brand-experiment) !important;
+}
+
+/* Set hover effect on server and channel list items */
+.listItem-2P_4kh:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Set hover effect on message reactions */
+.reactionInner-15NvIl:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Add ChatGPT Logo */
+.chatgpt-logo {
+  background: url(https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Emblem.png) no-repeat center;
+  background-size: contain;
+  height: 36px;
+  width: 36px;
+}
+
+/* Apply ChatGPT Logo to chat */
+.chat-3bRxxu .chat-3bRxxu::before {
+  content: "";
+  display: block;
+  background: url(https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Emblem.png) no-repeat center;
+  background-size: contain;
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 12px;
+  left: -32px;
+  opacity: 0.6;
+}
