@@ -1,0 +1,79 @@
+/* Discord Light Mode Theme with Yellow Accent */
+
+/* Set background color */
+:root {
+  --background-primary: #f7f7f7;
+}
+
+/* Set accent color */
+:root {
+  --brand-experiment: #ffc107;
+}
+
+/* Set text colors */
+:root {
+  --text-normal: #2e3338;
+  --text-muted: #747f8d;
+  --text-link: #0096ef;
+  --text-active: #fff;
+}
+
+/* Set channel and member list colors */
+:root {
+  --background-secondary: #fff;
+  --background-secondary-alt: #f2f3f5;
+}
+
+/* Set chat colors */
+:root {
+  --background-message-hover: rgba(0, 150, 239, 0.05);
+  --background-accent: #e8eaed;
+  --background-floating: #fff;
+}
+
+/* Set scrollbar colors */
+:root {
+  --scrollbar-color-thumb: #c6c7ca;
+  --scrollbar-color-track: #f2f3f5;
+}
+
+/* Set selection color */
+:root {
+  --background-modifier-accent: rgba(255, 193, 7, 0.15);
+}
+
+/* Set code block colors */
+.hljs {
+  background: #f2f3f5 !important;
+}
+
+/* Set links colors */
+a {
+  color: var(--text-link);
+}
+
+/* Set blockquote colors */
+blockquote {
+  color: var(--text-muted);
+  border-left-color: var(--text-normal);
+}
+
+/* Set mention colors */
+span[data-is-user="true"] {
+  color: var(--brand-experiment);
+}
+
+/* Set role colors */
+div[class^="roleCircle-"] {
+  background-color: var(--brand-experiment) !important;
+}
+
+/* Set hover effect on server and channel list items */
+.listItem-2P_4kh:hover {
+  background-color: rgba(0, 150, 239, 0.05);
+}
+
+/* Set hover effect on message reactions */
+.reactionInner-15NvIl:hover {
+  background-color: rgba(0, 150, 239, 0.05);
+}
