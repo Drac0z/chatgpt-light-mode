@@ -1,0 +1,55 @@
+@import url("https://discord.com/assets/28174a34e77bb5e5310ced9f95cb480b.css");
+
+/* Rainbow colors */
+:root {
+  --color-rainbow-1: #FF5F6D;
+  --color-rainbow-2: #FFC371;
+  --color-rainbow-3: #FFEEA8;
+  --color-rainbow-4: #B7F0B1;
+  --color-rainbow-5: #70C1B3;
+  --color-rainbow-6: #7067CF;
+}
+
+/* Main interface colors */
+.theme-dark {
+  --background-primary: var(--color-rainbow-1);
+  --background-secondary: var(--color-rainbow-2);
+  --background-secondary-alt: var(--color-rainbow-3);
+  --text-normal: #FFFFFF;
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --channeltextarea-background: rgba(255, 255, 255, 0.05);
+  --background-modifier-hover: rgba(255, 255, 255, 0.1);
+  --background-modifier-active: rgba(255, 255, 255, 0.15);
+  --background-accent: var(--color-rainbow-4);
+  --brand-experiment: var(--color-rainbow-5);
+  --background-floating: var(--color-rainbow-6);
+}
+
+/* Channel list */
+.channelListDefault-3hxrBC {
+  background-color: var(--background-secondary-alt);
+  border-left: none;
+}
+
+/* Chat messages */
+.message-2qnXI6 {
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+/* User popout */
+.userPopout-3XzG_A {
+  background-color: var(--background-secondary);
+}
+
+/* Server list */
+.container-1YxwTf {
+  background-color: var(--background-primary);
+}
+
+/* Mention badge */
+.mentionBadge-2y6H-S {
+  background-color: var(--color-rainbow-4);
+}
