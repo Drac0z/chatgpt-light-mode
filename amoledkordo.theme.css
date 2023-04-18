@@ -1,0 +1,67 @@
+/* Obsidian AMOLED Discord Theme */
+
+:root {
+  --background-image: url('350892364_uqgcFHywAXpwWfhA4Qnjs9KCNT9mnauY.jpg');
+  --main-color: #1a1a1a;
+  --accent-color: #7289da;
+  --text-color: #ffffff;
+  --secondary-text-color: #bbbbbb;
+}
+
+body {
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--main-color);
+}
+
+.theme-dark {
+  --background-primary: var(--main-color);
+  --background-secondary: rgba(26, 26, 26, 0.6);
+  --background-secondary-alt: rgba(26, 26, 26, 0.8);
+  --background-tertiary: rgba(255, 255, 255, 0.05);
+  --background-accent: var(--accent-color);
+  --text-normal: var(--text-color);
+  --text-muted: var(--secondary-text-color);
+}
+
+/* Apply custom theme colors */
+[class*="theme-dark"] {
+  background-color: var(--background-primary) !important;
+}
+
+[class*="theme-dark"] .container-2OU7Cz,
+[class*="theme-dark"] .list-ULmg9U,
+[class*="theme-dark"] .members-3WRCEx,
+[class*="theme-dark"] .content-1x5b-n,
+[class*="theme-dark"] .sidebar-2K8pFh,
+[class*="theme-dark"] .wrapper-2a6GCs {
+  background-color: var(--background-secondary) !important;
+}
+
+[class*="theme-dark"] .item-2J1YMK,
+[class*="theme-dark"] .scroller-3vODG7,
+[class*="theme-dark"] .scroller-2PSBS_,
+[class*="theme-dark"] .scroller-1Bvpku {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+[class*="theme-dark"] .button-38aScr,
+[class*="theme-dark"] .button-14-BFJ {
+  background-color: var(--background-accent) !important;
+}
+
+[class*="theme-dark"] .markup-2BOw-j,
+[class*="theme-dark"] .headerNormal-T_seeN,
+[class*="theme-dark"] .username-1A8OIy,
+[class*="theme-dark"] .activity-4I2gFq,
+[class*="theme-dark"] .role-2TV4yt {
+  color: var(--text-normal) !important;
+}
+
+[class*="theme-dark"] .text-1y-eN-,
+[class*="theme-dark"] .colorStandard-2KCXvj,
+[class*="theme-dark"] .colorHeaderSecondary-3_SPn_,
+[class*="theme-dark"] .subtext-2l2D5K {
+  color: var(--text-muted) !important;
+}
